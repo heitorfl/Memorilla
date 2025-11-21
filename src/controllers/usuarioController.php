@@ -13,16 +13,6 @@ class UsuarioController {
         return $this->model->read();
     }
 
-    public function add(Usuario $c) {
-        if($this->model->create($c)){
-            FlashMessage::setMessage("usuário cadastrado com sucesso!", 1);
-            return true;
-        } else {
-            FlashMessage::setMessage("Erro!", 0);
-            return false;
-        }
-    }
-    
     public function findId($id) {
         return $this->model->findId($id);
     }
