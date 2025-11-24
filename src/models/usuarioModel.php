@@ -6,7 +6,7 @@
 
         private $table = "usuario";
 
-        public function create(Usuario $c)
+    public function create(Usuario $c)
     {
         try {
             // Cria string SQL
@@ -50,6 +50,19 @@
         $stmt->execute();
         return $stmt->fetch();
     }
-
+    public function checkToken(Usuario $c){
+        $stmt = Conexao::getConn()->prepare("select token from $this->table where id=?");
+        $stmt->bindValue(1, $c->getId());
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
+        $stmt->execute();
+        return $stmt->fetch();
+    }
+    public function changeToken(Usuario $c){
+        $stmt = Conexao::getConn()->prepare("update from $this->table set token=1 where id=?");
+        $stmt->bindValue(1, $c->getId());
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
+        $stmt->execute();
+        return $stmt->fetch();
+    }
     }
 ?>

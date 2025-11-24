@@ -3,9 +3,13 @@
         private $id;
         private $email;
         private $senha;
-        private $tokenIngresso = 0;
+        private $token = 0;
 
-
+        public function __construct($_email, $_senha)
+        {
+                $this->setEmail($_email);
+                $this->setSenha($_senha);
+        }
         /**
          * Get the value of id
          */ 
@@ -67,21 +71,21 @@
         }
 
         /**
-         * Get the value of tokenIngresso
+         * Get the value of token
          */ 
-        public function getTokenIngresso()
+        public function getToken()
         {
-                return $this->tokenIngresso;
+                return $this->token;
         }
 
         /**
-         * Set the value of tokenIngresso
+         * Set the value of token
          *
          * @return  self
          */ 
-        public function setTokenIngresso($tokenIngresso)
+        public function setToken($token)
         {
-                $this->tokenIngresso = $tokenIngresso;
+                $this->token = $token;
 
                 return $this;
         }
