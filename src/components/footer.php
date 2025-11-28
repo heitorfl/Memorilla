@@ -1,4 +1,4 @@
-<footer class="flex flex-col items-center justify-center text-(--gray) w-screen bg-(--primary-blue)">
+<footer class="flex flex-col items-center justify-center text-(--gray) w-screen bg-(--primary-blue) ">
     <i class="fa-solid fa-globe text-2xl"></i>
     <h3 class="jacquard text-2xl">Intituto de Cronografia Aplicada</h3>
     <p class="gfs text-xs">©Copywright 2025: Todos os direitos reservados</p>

@@ -25,7 +25,7 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/components/fonts.php"; ?>
     <link rel="stylesheet" href="../assets/css/login.css">
 </head>
-<body class="bg-(--dark) flex items-center justify-center flex-col h-lvh">
+<body class="bg-(--dark) flex items-center justify-center flex-col min-h-lvh">
     <main>
         <div id="login" class="mb-10">
             <div class="flex items-center justify-center m-5 p-5 text-3xl border-y-2 border-(--secondary-blue) w-2xl">
