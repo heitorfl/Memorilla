@@ -14,7 +14,7 @@
             <nav class="flex justify-around items-center">
                <img src="\Memorilla\src\assets\img\logo.png" alt="" class="w-20" draggable="false"
                 <li><a href="">Produtos</a></li>
-                <li><a href="">Ingresso</a></li>
+                <li><a href="../pages/Ingresso.php">Ingresso</a></li>
                 <li><a href="">Carrinho</a></li>
                 <li><a href="">Personagem</a></li>
                 <li><a href="">Mapa</a></li>
