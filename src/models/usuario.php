@@ -5,11 +5,15 @@
         private $senha;
         private $token = 0;
 
-        public function __construct($_email, $_senha)
-        {
-                $this->setEmail($_email);
-                $this->setSenha($_senha);
-        }
+                public function __construct($_email = null, $_senha = null)
+                {
+                        if ($_email !== null) {
+                                $this->setEmail($_email);
+                        }
+                        if ($_senha !== null) {
+                                $this->setSenha($_senha);
+                        }
+                }
         /**
          * Get the value of id
          */ 
