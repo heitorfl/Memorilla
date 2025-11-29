@@ -14,7 +14,7 @@
     <header class="p-1 bg-(--primary-blue) text-(--light) text-lg gfs">
         <ul>
             <nav class="flex justify-around items-center">
-               <img src="\Memorilla\src\assets\img\logo.png" alt="" class="w-20" draggable="false"
+               <img src="\Memorilla\src\assets\img\logo.png" alt="" class="w-20" draggable="false">
                 <li><a href="produtos.php">Produtos</a></li>
                 <li><a href="ingresso.php">Ingresso</a></li>
                 <li><a href="carrinho.php">Carrinho</a></li>

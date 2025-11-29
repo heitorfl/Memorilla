@@ -1,6 +1,3 @@
-<?php
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/components/auth.php";
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -12,7 +9,7 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/components/fonts.php"; ?>
 </head>
 
-<body class="overflow-x-hidden w-screen">
+<body class="overflow-x-hidden w-screen min-h-screen flex flex-col">
     <header class="p-1 bg-(--primary-blue) text-(--light) text-lg gfs">
         <ul>
             <nav class="flex justify-around items-center">
@@ -26,9 +23,8 @@
             </nav>
         </ul>
     </header>
-    <main class="bg-(--primary-blue) flex flex-col items-center justify-center">
-
-        <section class="text-(--light) text-center p-25 w-7xl border-solid border-(--gray) border-b">
+    <main class="bg-(--primary-blue) flex flex-col items-center flex-grow">
+        <section class="text-(--light) text-center p-25 w-7xl border-solid border-(--secondary-blue) border-b">
             <h1 class="jim text-6xl pb-20">O que são os ingressos?</h1>
             <p class="text-justify gfs text-xl">Aqui você pode comprar os ingressos para visitar o museu físico e, uma novidade que ninguém nunca antes viu, comprar o ingresso para conhecer essa história sem sair de casa! Comprando o ingresso virtual, você tem acesso à parte de Personagens do site e pode desfrutar de todos os nossos dados!</p>
         </section>
