@@ -1,16 +1,6 @@
-
 <?php
-session_start();
-if (!isset($_SESSION['usuario_id'])) {
-    header("Location: /Memorilla/src/pages/login.php");
-    exit();
-}
-if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity'] > 900)) {
-    session_unset();
-    session_destroy();
-    header("Location: /Memorilla/src/pages/login.php");
-    exit();
-}
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/components/auth.php";
+?>
 $_SESSION['last_activity'] = time();
 ?>
 <!DOCTYPE html>
