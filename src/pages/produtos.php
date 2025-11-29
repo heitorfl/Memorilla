@@ -101,7 +101,6 @@
             </section>
         </section>
         <section id="cosmeticos flex justify-center items-center p-10">
-            <div class="mainTitle"><h3>Cosméticos</h3></div>
                 <div class="mainTitle flex justify-center items-center p-5 m-3"><h3 class="text-5xl text-(--light) jim">Cosméticos</h3></div>
             <section class="cards flex justify-center items-center m-10 p-5">
                 <?php foreach($cosmeticos as $item){?>
@@ -118,6 +117,6 @@
         </section>
     </main>
     <?php include_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/components/footer.php"?> 
-    <script src="\Memorilla\src\assets\js\produtoSlider.js"></script>
+    <script src="/Memorilla/src/assets/js/produtoSlider.js"></script>
 </body>
 </html>
