@@ -1,6 +1,8 @@
 <?php 
     require_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/controllers/usuarioController.php";
     require_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/models/usuario.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/controllers/loginController.php";
+
 
     if($_POST){
         $email = $_POST['email'];
