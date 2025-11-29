@@ -1,5 +1,5 @@
 <?php 
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/models/usuarioModel.php";
+    require_once "usuarioModel.php";
 
     class loginController{
 
@@ -12,17 +12,11 @@
 
         public function login(Usuario $user){
             $resposta = $this->user->login($user);
-            session_start();
-            
-            if($resposta && $resposta->getId()) {
-                $_SESSION['usuario_id'] = $resposta->getId();
-                $_SESSION['usuario_email'] = $resposta->getEmail();
-                header("Location: /Memorilla/src/pages/index.php");
-                exit();
-            } else {
-                $_SESSION['login_error'] = 'Usuário e/ou senha inválido(s)';
-                header("Location: /Memorilla/src/pages/login.php");
-                exit();
+            if($resposta){
+                header("location: ./src/pages/");
+            }
+            else{
+                print "<script>alert('Usuário e/ou senha inválido(s)')</script>";
             }
         }
     }

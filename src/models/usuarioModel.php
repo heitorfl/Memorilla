@@ -44,8 +44,8 @@
     public function login(Usuario $c)
     {
         $stmt = Conexao::getConn()->prepare("select * from $this->table where email=? and senha=?");
-        $stmt->bindValue(1, trim($c->getEmail()));
-        $stmt->bindValue(2, trim($c->getSenha()));
+        $stmt->bindValue(1, $c->getEmail());
+        $stmt->bindValue(2, $c->getSenha());
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
         $stmt->execute();
         return $stmt->fetch();

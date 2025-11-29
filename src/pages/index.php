@@ -1,8 +1,4 @@
-<?php
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/components/auth.php";
-?>
-$_SESSION['last_activity'] = time();
-?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,11 +13,11 @@ $_SESSION['last_activity'] = time();
         <ul>
             <nav class="flex justify-around items-center">
                <img src="\Memorilla\src\assets\img\logo.png" alt="" class="w-20" draggable="false"
-                <li><a href="">Produtos</a></li>
-                <li><a href="">Ingresso</a></li>
-                <li><a href="">Carrinho</a></li>
-                <li><a href="">Personagem</a></li>
-                <li><a href="">Mapa</a></li>
+                <li><a href="../pages/index.php">Home</a></li>
+                <li><a href="../pages/ingresso.php">Ingressos</a></li>
+                <li><a href="../pages/produto.php">Produtos</a></li>
+                <li><a href="../pages/personagens.php">Personagens</a></li>
+                <li><a href="../pages/mapa.php">Mapa</a></li>
                 <li><i class="fa-solid fa-door-open text-2xl"></i></li>
             </nav>
         </ul>
