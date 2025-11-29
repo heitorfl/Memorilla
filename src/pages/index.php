@@ -18,7 +18,7 @@
                 <li><a href="produtos.php">Produtos</a></li>
                 <li><a href="ingresso.php">Ingresso</a></li>
                 <li><a href="carrinho.php">Carrinho</a></li>
-                <li><a href="personagem.php">Personagem</a></li>
+                <li><a href="personagem.php">Personagens</a></li>
                 <li><a href="mapa.php">Mapa</a></li>
                 <li><a href="/Memorilla/src/components/logout.php?confirm=1"><i class="fa-solid fa-door-open text-2xl"></i></a></li>
             </nav>

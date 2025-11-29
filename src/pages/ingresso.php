@@ -20,8 +20,8 @@
                     <li><a href="../pages/index.php">Home</a></li>
                 <li><a href="../pages/produtos.php">Produtos</a></li>
                 <li><a href="../pages/carrinho.php">Carrinho</a></li>
-                <li><a href="">Personagem</a></li>
-                <li><a href="">Mapa</a></li>
+                <li><a href="../pages/personagens.php">Personagem</a></li>
+                <li><a href="../pages/mapa.php">Mapa</a></li>
                 <li><i class="fa-solid fa-door-open text-2xl"></i></li>
             </nav>
         </ul>
