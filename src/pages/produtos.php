@@ -40,7 +40,7 @@ for ($i = 0; $i < 9; $i++) {
                 <li><a href="produtos.php">Home</a></li>
                 <li><a href="ingresso.php">Ingresso</a></li>
                 <li><a href="carrinho.php">Carrinho</a></li>
-                <li><a href="personagem.php">Personagens</a></li>
+                <li><a href="personagens.php">Personagens</a></li>
                 <li><a href="mapa.php">Mapa</a></li>
                 <li><a href="/Memorilla/src/components/logout.php?confirm=1"><i class="fa-solid fa-door-open text-2xl"></i></a></li>
             </nav>
@@ -89,7 +89,7 @@ for ($i = 0; $i < 9; $i++) {
                                 <p class="text-(--light) text-xl jim"><?php print $item->getDescricao(); ?></p>
                             </div>
                             <div class="btnsCart">
-                                <form action="carrinho.php" method="post" style="display:inline;">
+                                <form action="carrinho.php" method="post">
                                     <input type="hidden" name="produto_id" value="<?php print $item->getId() ?>">
                                     <input type="hidden" name="quantidade" value="1">
                                     <button type="submit" class="cart bg-(--light) p-4 mt-4 text-(--dark) rounded-2xl gfs cursor-pointer">
@@ -121,7 +121,7 @@ for ($i = 0; $i < 9; $i++) {
                                 <p class="text-(--light) text-xl jim"><?php print $item->getDescricao(); ?></p>
                             </div>
                             <div class="btnsCart">
-                                <form action="carrinho.php" method="post" style="display:inline;">
+                                <form action="carrinho.php" method="post">
                                     <input type="hidden" name="produto_id" value="<?php print $item->getId() ?>">
                                     <input type="hidden" name="quantidade" value="1">
                                     <button type="submit" class="cart bg-(--light) p-4 mt-4 text-(--dark) rounded-2xl gfs cursor-pointer">
@@ -153,7 +153,7 @@ for ($i = 0; $i < 9; $i++) {
                                 <p class="text-(--light) text-xl jim"><?php print $item->getDescricao(); ?></p>
                             </div>
                             <div class="btnsCart">
-                                <form action="carrinho.php" method="post" style="display:inline;">
+                                <form action="carrinho.php" method="post">
                                     <input type="hidden" name="produto_id" value="<?php print $item->getId() ?>">
                                     <input type="hidden" name="quantidade" value="1">
                                     <button type="submit" class="cart bg-(--light) p-4 mt-4 text-(--dark) rounded-2xl gfs cursor-pointer">
