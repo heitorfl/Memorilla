@@ -76,6 +76,7 @@ $produtos = new ProdutoController();
             <?php
                 }
             }
+            ?>
             <?php if (!$temItens): ?>
                 <div class="carrinho-vazio text-center py-16 text-(--gray) text-2xl">
                     Seu carrinho está vazio.
