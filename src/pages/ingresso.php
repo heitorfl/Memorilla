@@ -1,3 +1,7 @@
+<?php
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/components/auth.php"; 
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 

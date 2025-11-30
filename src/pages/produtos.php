@@ -1,8 +1,8 @@
 <?php
     include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/components/auth.php";
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/controllers/produtoController.php";
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/models/produtoModel.php";
-    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/models/produto.php";
+    require_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/controllers/produtoController.php";
+    require_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/models/produtoModel.php";
+    require_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/models/produto.php";
 
     $produtos = new ProdutoController();
     $dados = $produtos->read();
@@ -78,8 +78,11 @@
                         <div class="imgCard"><img src="/Memorilla/src/assets/img/carrossel1.png" alt=""></div>
                         <div class="cardBody ">
                             <div class="nomeCard"><h3 class="text-(--light) text-4xl jim"><?php print $item->getNome();?></h3></div>
-                            <div class="price"><p class="text-(--light) text-3xl jim"><?php print $item->getPreco();?></p></div>
+                            <div class="price"><p class="text-(--light) text-3xl jim"><?php print $item->getPreco();?> R$</p></div>
                             <div class="textCard"><p class="text-(--light) text-xl jim"><?php print $item->getDescricao();?></p></div>
+                            <div class="btnsCart">
+                                <button class="cart" class="bg-(--light) p-4 mt-4 text-(--dark) rounded-2xl gfs cursor-pointer" id="<?php print $item->getId()?>">Adicionar<i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
                         </div>
                     </div>
                 <?php }?>
@@ -93,8 +96,11 @@
                         <div class="imgCard"><img src="/Memorilla/src/assets/img/carrossel1.png" alt="" ></div>
                         <div class="cardBody ">
                             <div class="nomeCard"><h3 class="text-(--light) text-4xl jim"><?php print $item->getNome();?></h3></div>
-                            <div class="price"><p class="text-(--light) text-3xl jim"><?php print $item->getPreco();?></p></div>
+                            <div class="price"><p class="text-(--light) text-3xl jim"><?php print $item->getPreco();?> R$</p></div>
                             <div class="textCard"><p class="text-(--light) text-xl jim"><?php print $item->getDescricao();?></p></div>
+                            <div class="btnsCart">
+                                <button class="cart" class="bg-(--light) p-4 mt-4 text-(--dark) rounded-2xl gfs cursor-pointer" id="<?php print $item->getId()?>">Adicionar<i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
                         </div>
                     </div>
                 <?php }?>
@@ -108,8 +114,11 @@
                         <div class="imgCard"><img src="/Memorilla/src/assets/img/carrossel1.png" alt=""></div>
                         <div class="cardBody ">
                             <div class="nomeCard"><h3 class="text-(--light) text-4xl jim"><?php print $item->getNome();?></h3></div>
-                            <div class="price"><p class="text-(--light) text-3xl jim"><?php print $item->getPreco();?></p></div>
+                            <div class="price"><p class="text-(--light) text-3xl jim"><?php print $item->getPreco();?> R$</p></div>
                             <div class="textCard"><p class="text-(--light) text-xl jim"><?php print $item->getDescricao();?></p></div>
+                            <div class="btnsCart">
+                                <button class="cart" class="bg-(--light) p-4 mt-4 text-(--dark) rounded-2xl gfs cursor-pointer" id="<?php print $item->getId()?>">Adicionar<i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
                         </div>
                     </div>
                 <?php }?>
