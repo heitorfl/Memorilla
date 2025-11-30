@@ -20,11 +20,11 @@
         public function add(Usuario $c) {
             return $this->model->create($c);
         }
-        public function checkToken(Usuario $c){
-            return $this->model->checkToken($c);
+        public function checkToken($id){
+            return $this->model->checkToken($id);
         }
-        public function changeToken(Usuario $c){
-            return $this->model->changeToken($c);
+        public function changeToken($id){
+            return $this->model->changeToken($id);
         }
     }
 ?>

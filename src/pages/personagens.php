@@ -1,5 +1,13 @@
 <?php 
     include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/components/auth.php";
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/controllers/usuarioController.php";
+
+    $id = $_SESSION['usuario_id'];
+    $user = new UsuarioController();
+    $resposta = $user->checkToken($id);
+    if($resposta->getToken() !== 1){
+        header("location: ingresso.php");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

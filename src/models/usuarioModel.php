@@ -58,7 +58,7 @@
         return $stmt->fetch();
     }
     public function changeToken($id){
-        $stmt = Conexao::getConn()->prepare("update from $this->table set token=1 where id=?");
+        $stmt = Conexao::getConn()->prepare("UPDATE $this->table SET token=1 WHERE id=? ");
         $stmt->bindValue(1, $id);
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
         $stmt->execute();

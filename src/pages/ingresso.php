@@ -38,7 +38,7 @@
                 <h2 class="jim text-5xl m-1">Presencial</h2>
                 <div class="flex flex-col">
                     <i class="fa-solid fa-ticket text-(--secondary-blue) text-[9.5rem] m-5"></i>
-                    <a href=""><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs">Comprar</button></a>
+                    <a href=""><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs cursor-pointer">Comprar</button></a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
                 <h2 class="jim text-5xl m-1">Virtual</h2>
                 <div class="flex flex-col">
                     <i class="fa-solid fa-ticket text-(--secondary-blue) text-[9.5rem] m-5"></i>
-                    <a href=""><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs">Comprar</button></a>  
+                    <a href="/Memorilla/src/models/liberarAcesso.php"><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs cursor-pointer">Comprar</button></a>  
                 </div>
             </div>
         </section>
