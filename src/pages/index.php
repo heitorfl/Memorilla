@@ -73,7 +73,7 @@
 
                 </div>
             </div>            
-            <div class="fundo bg-radial from-(--teste) from-60% to-transparent to-70% flex items-center m-10 mb-30 transition hover:scale-115">
+            <div class="fundo bg-radial from-(--teste) from-40% to-transparent to-75% flex items-center m-10 mb-30 transition hover:scale-115">
                 <a href="ingresso.php"><p class="jacquard text-6xl text-(--light) p-10">Conhecer história</p></a>
             </div>
         </section>
