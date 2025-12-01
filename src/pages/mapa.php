@@ -42,7 +42,7 @@
             </div>
             <div class="legenda flex justify-center items-center flex-col m-10">
                 <p id="caption" class="text-3xl text-(--light) jim m-5"></p>
-                <img src="" alt="" id="imgArea">
+                <img src="/Memorilla/src/assets/img/area0.png" alt="" id="imgArea" class="w-100 rounded-xl">
             </div>
         </section>
     </main>

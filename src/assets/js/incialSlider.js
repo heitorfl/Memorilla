@@ -15,8 +15,8 @@ class Slider{
         
         this.captions = [
             "\"Lápide dos escolhidos\"",
-            "\"Camiseta Luther\"",
-            "\"Creme Pitts\""
+            "\"Nosso museu\"",
+            "\"Nossa loja\""
         ]
         
         this.prevBtn.addEventListener('click', () => {
