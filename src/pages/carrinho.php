@@ -60,7 +60,7 @@
                     $total += $subtotal;
             ?>
             <section class="m-6 flex text-(--light) border-solid border-(--secondary-blue) border-[2px] rounded-3xl w-[80vw] max-w-5xl bg-(--primary-blue)">
-                <figure><img src="../assets/img/foto-teste-produtos.jpg" alt="Imagem do produto" class="min-h-[100%] rounded-3xl w-32 h-32 object-cover"></figure>
+                <figure><img src="<?php echo $produto->getImagem(); ?>" alt="Imagem do produto" class="min-h-[100%] rounded-3xl w-120 h-32 object-cover"></figure>
                 <div class="m-8 w-full">
                     <h2 class="jim text-3xl mb-2"><?php echo $produto->getNome(); ?></h2>
                     <p class="gfs text-lg w-full text-justify mb-2"><?php echo $produto->getDescricao(); ?></p>

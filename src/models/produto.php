@@ -4,6 +4,7 @@
         private $nome;  
         private $preco; 
         private $descricao;
+        private $imagem;
 
         /**
          * Get the value of id
@@ -81,6 +82,26 @@
         public function setDescricao($descricao)
         {
                 $this->descricao = $descricao;
+
+                return $this;
+        }
+
+        /**
+         * Get the value of imagem
+         */ 
+        public function getImagem()
+        {
+                return $this->imagem;
+        }
+
+        /**
+         * Set the value of imagem
+         *
+         * @return  self
+         */ 
+        public function setImagem($imagem)
+        {
+                $this->imagem = $imagem;
 
                 return $this;
         }

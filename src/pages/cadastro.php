@@ -38,6 +38,7 @@
             </form>
         </div>
     </main>
-    <?php include_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/components/footer.php"?> 
+    <script src="https://kit.fontawesome.com/803e48205f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
 </html>

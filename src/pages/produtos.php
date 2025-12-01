@@ -53,13 +53,13 @@ for ($i = 0; $i < 9; $i++) {
                 <div class="slider relative h-[400px] w-full overflow-x-hidden rounded-xl">
                     <div class="carousel h-full w-full relative">
                         <div class="slide active absolute top-0 left-0 w-full h-full opacity-0">
-                            <img src="/Memorilla/src/assets/img/carrossel1.png" alt="Imagem 1">
+                            <img src="/Memorilla/src/assets/img/produto2.png" alt="Imagem 1">
                         </div>
                         <div class="slide absolute top-0 left-0 w-full h-full opacity-0">
-                            <img src="https://picsum.photos/800/400?random=2" alt="Imagem 2">
+                            <img src="/Memorilla/src/assets/img/produto6.png" alt="Imagem 2">
                         </div>
                         <div class="slide absolute top-0 left-0 w-full h-full opacity-0">
-                            <img src="https://picsum.photos/800/400?random=3" alt="Imagem 3">
+                            <img src="/Memorilla/src/assets/img/produto7.png" alt="Imagem 3">
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ for ($i = 0; $i < 9; $i++) {
             <section class="cards flex justify-center items-center m-10 border-b-1 border-(--light)">
                 <?php foreach ($personagens as $item) { ?>
                     <div class="card w-100 p-2 m-10">
-                        <div class="imgCard"><img src="/Memorilla/src/assets/img/carrossel1.png" alt=""></div>
+                        <div class="imgCard"><img src="<?php print $item->getImagem(); ?>" alt="" class="rounded-xl"></div>
                         <div class="cardBody ">
                             <div class="nomeCard">
                                 <h3 class="text-(--light) text-4xl jim"><?php print $item->getNome(); ?></h3>
@@ -109,7 +109,7 @@ for ($i = 0; $i < 9; $i++) {
             <section class="cards flex justify-center items-center m-10 border-b-1 border-(--light)">
                 <?php foreach ($acessorios as $item) { ?>
                     <div class="card w-100 p-2 m-10">
-                        <div class="imgCard"><img src="/Memorilla/src/assets/img/carrossel1.png" alt=""></div>
+                        <div class="imgCard"><img src="<?php print $item->getImagem(); ?>" alt="" class="rounded-xl"></div>
                         <div class="cardBody ">
                             <div class="nomeCard">
                                 <h3 class="text-(--light) text-4xl jim"><?php print $item->getNome(); ?></h3>
@@ -141,7 +141,7 @@ for ($i = 0; $i < 9; $i++) {
             <section class="cards flex justify-center items-center m-10 p-5">
                 <?php foreach ($cosmeticos as $item) { ?>
                     <div class="card w-100 p-2 m-10">
-                        <div class="imgCard"><img src="/Memorilla/src/assets/img/carrossel1.png" alt=""></div>
+                        <div class="imgCard"><img src="<?php print $item->getImagem(); ?>" alt="" class="rounded-xl"></div>
                         <div class="cardBody ">
                             <div class="nomeCard">
                                 <h3 class="text-(--light) text-4xl jim"><?php print $item->getNome(); ?></h3>

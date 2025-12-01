@@ -41,10 +41,10 @@
                             <img src="/Memorilla/src/assets/img/carrossel1.png" alt="Imagem 1">
                         </div>
                         <div class="slide absolute top-0 left-0 w-full h-full opacity-0">
-                            <img src="https://picsum.photos/800/400?random=2" alt="Imagem 2">
+                            <img src="/Memorilla/src/assets/img/quemSomos.png" alt="Imagem 2">
                         </div>
                         <div class="slide absolute top-0 left-0 w-full h-full opacity-0">
-                            <img src="https://picsum.photos/800/400?random=3" alt="Imagem 3">
+                            <img src="/Memorilla/src/assets/img/area2.png" alt="Imagem 3">
                         </div>
                     </div>
                 </div>
