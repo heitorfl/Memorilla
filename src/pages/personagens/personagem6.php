@@ -18,13 +18,15 @@
                 <section class="p-13 border-solid border-(--secondary-blue) border-b flex items-center">
                     <img class="w-[16rem] h-[20rem] rounded-2xl" src="../../assets/img/foto-teste-personagens.png" alt="Foto-do-personagem">
                     <div class="m-15">
-                        <h1 class="text-(--secondary-blue) text-4xl mb-10">Nome personagem</h1>
-                        <p class="max-w-3xl text-xl text-justify">Somos o Instituto de Cronografia Aplicada, uma instituição independente dedicada à preservação meticulosa de histórias significativas. Nosso trabalho é garantir que narrativas cruciais não se percam no tempo. O Memorilla nasceu da crença de que toda história, por mais complexa que seja, merece um repositório de confiança. Fundado por um grupo de arquivistas, pesquisadores e storytellers, nosso projeto é um tributo ao poder da memória coletiva.</p>
+                        <h1 class="text-(--secondary-blue) text-4xl mb-10">Ben Hargreeves</h1>
+                        <p class="max-w-3xl text-xl text-justify">Ben, o "Número Seis", era capaz de convocar uma dimensão lovecraftiana de monstros tentaculares através de um portal em seu torso. Era um jovem quieto, sensível e gentil, que detestava a violência de seu próprio poder. Sua morte prematura, antes dos eventos principais da série, o tornou um fantasma ligado a Klaus, sendo o único irmão que conseguia vê-lo e interagir com ele por anos.
+</p>
                     </div>
                 </section>
                 <section class="p-13 max-w-7xl flex flex-col items-center mt-5 mb-15">
                     <img class="w-full h-[20rem] rounded-2xl" src="../../assets/img/foto-teste-banner-personagens.png" alt="Foto">
-                    <p class="text-justify text-xl max-w-7x1 m-15">Somos o Instituto de Cronografia Aplicada, uma instituição independente dedicada à preservação meticulosa de histórias significativas. Nosso trabalho é garantir que narrativas cruciais não se percam no tempo. O Memorilla nasceu da crença de que toda história, por mais complexa que seja, merece um repositório de confiança. Fundado por um grupo de arquivistas, pesquisadores e storytellers, nosso projeto é um tributo ao poder da memória coletiva.</p>
+                    <p class="text-justify text-xl max-w-7x1 m-15">A morte original de Ben ocorreu em uma missão de rotina da Umbrella Academy. Aos 17 anos, ele perdeu o controle de sua entidade monstruosa durante um combate. Os tentáculos se voltaram violentamente contra seu próprio corpo, dilacerando-o internamente. Ele morreu nos braços de seus irmãos, tornando-se um fantasma atormentado que observou o mundo por mais de uma década antes de conseguir seguir em paz.
+</p>
                 </section>
             </div>
     </main>

@@ -18,13 +18,15 @@
                 <section class="p-13 border-solid border-(--secondary-blue) border-b flex items-center">
                     <img class="w-[16rem] h-[20rem] rounded-2xl" src="../../assets/img/foto-teste-personagens.png" alt="Foto-do-personagem">
                     <div class="m-15">
-                        <h1 class="text-(--secondary-blue) text-4xl mb-10">Nome personagem</h1>
-                        <p class="max-w-3xl text-xl text-justify">Somos o Instituto de Cronografia Aplicada, uma instituição independente dedicada à preservação meticulosa de histórias significativas. Nosso trabalho é garantir que narrativas cruciais não se percam no tempo. O Memorilla nasceu da crença de que toda história, por mais complexa que seja, merece um repositório de confiança. Fundado por um grupo de arquivistas, pesquisadores e storytellers, nosso projeto é um tributo ao poder da memória coletiva.</p>
+                        <h1 class="text-(--secondary-blue) text-4xl mb-10">Luther Hargreeves</h1>
+                        <p class="max-w-3xl text-xl text-justify">Luther, também conhec como "Número Um" ou "Spaceboy", foi o líder reconhecido da Umbrella Academy. Dotado de força sobre-humana, sua lealdade ao Sir Reginald Hargreeves era absoluta. Após um desastre em uma missão, seu corpo foi gravemente ferido, e seu pai o salvou transplantando sua consciência para o corpo de um astronauta símio. Isso o deixou com um corpo descomunal e o enviou em uma missão solitária de quatro anos à Lua, da qual voltou emocionalmente isolado e inseguro.
+</p>
                     </div>
                 </section>
                 <section class="p-13 max-w-7xl flex flex-col items-center mt-5 mb-15">
                     <img class="w-full h-[20rem] rounded-2xl" src="../../assets/img/foto-teste-banner-personagens.png" alt="Foto">
-                    <p class="text-justify text-xl max-w-7x1 m-15">Somos o Instituto de Cronografia Aplicada, uma instituição independente dedicada à preservação meticulosa de histórias significativas. Nosso trabalho é garantir que narrativas cruciais não se percam no tempo. O Memorilla nasceu da crença de que toda história, por mais complexa que seja, merece um repositório de confiança. Fundado por um grupo de arquivistas, pesquisadores e storytellers, nosso projeto é um tributo ao poder da memória coletiva.</p>
+                    <p class="text-justify text-xl max-w-7x1 m-15">Luther encontrou seu fim durante a batalha contra as Guardiãs do Hotel Obsidian. Enquanto protegia sua família com sua força característica, ele foi gravemente ferido. Com suas últimas forças, ele carregou o irmão, Five, para um local seguro, garantindo a sobrevivência deste para que pudesse concluir sua missão. Luther sucumbiu aos seus ferimentos, morrendo como um herói e um protetor até o último instante.
+</p>
                 </section>
             </div>
     </main>

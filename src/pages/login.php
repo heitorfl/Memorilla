@@ -1,6 +1,8 @@
 <?php 
     require_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/controllers/usuarioController.php";
     require_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/models/usuario.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/Memorilla/src/controllers/loginController.php";
+
 
     if($_POST){
         $email = $_POST['email'];
@@ -26,7 +28,7 @@
     <link rel="stylesheet" href="../assets/css/login.css">
 </head>
 <body class="bg-(--dark) flex items-center justify-center flex-col min-h-lvh">
-    <main>
+    <main class="h-[80vh] flex justify-center items-center">
         <div id="login" class="mb-10">
             <div class="flex items-center justify-center m-5 p-5 text-3xl border-y-2 border-(--secondary-blue) w-2xl">
                 <h1 class="mainTitle text-(--gray) jim">Login</h1>

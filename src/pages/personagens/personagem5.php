@@ -18,13 +18,15 @@
                 <section class="p-13 border-solid border-(--secondary-blue) border-b flex items-center">
                     <img class="w-[16rem] h-[20rem] rounded-2xl" src="../../assets/img/foto-teste-personagens.png" alt="Foto-do-personagem">
                     <div class="m-15">
-                        <h1 class="text-(--secondary-blue) text-4xl mb-10">Nome personagem</h1>
-                        <p class="max-w-3xl text-xl text-justify">Somos o Instituto de Cronografia Aplicada, uma instituição independente dedicada à preservação meticulosa de histórias significativas. Nosso trabalho é garantir que narrativas cruciais não se percam no tempo. O Memorilla nasceu da crença de que toda história, por mais complexa que seja, merece um repositório de confiança. Fundado por um grupo de arquivistas, pesquisadores e storytellers, nosso projeto é um tributo ao poder da memória coletiva.</p>
+                        <h1 class="text-(--secondary-blue) text-4xl mb-10">Five</h1>
+                        <p class="max-w-3xl text-xl text-justify">Conhecido apenas como "Five" (Cinco), seu poder era o teletransporte no espaço-tempo. Arrogante e genial, ele viajou acidentalmente para um futuro pós-apocalíptico quando era adolescente, onde passou 45 anos sozinho antes de conseguir voltar. Ele se tornou um assassino letal e eficiente para sobreviver e foi o único que sempre compreendeu a verdadeira ameaça do iminente apocalipse, lutando incansavelmente para impedi-lo.
+</p>
                     </div>
                 </section>
                 <section class="p-13 max-w-7xl flex flex-col items-center mt-5 mb-15">
                     <img class="w-full h-[20rem] rounded-2xl" src="../../assets/img/foto-teste-banner-personagens.png" alt="Foto">
-                    <p class="text-justify text-xl max-w-7x1 m-15">Somos o Instituto de Cronografia Aplicada, uma instituição independente dedicada à preservação meticulosa de histórias significativas. Nosso trabalho é garantir que narrativas cruciais não se percam no tempo. O Memorilla nasceu da crença de que toda história, por mais complexa que seja, merece um repositório de confiança. Fundado por um grupo de arquivistas, pesquisadores e storytellers, nosso projeto é um tributo ao poder da memória coletiva.</p>
+                    <p class="text-justify text-xl max-w-7x1 m-15">Five morreu como viveu: tentando consertar a linha do tempo. Para salvar a família e restaurar a realidade, que estava se desfazendo, ele precisou viajar para o epicentro de uma ruptura temporal. Sabia que a viagem seria uma via de mão única. A energia temporal instável era demasiada para qualquer corpo suportar. Ele se desintegrou no continuum espaço-temporal, tornando-se uma parte eterna do tecido da realidade que tanto lutou para salvar.
+</p>
                 </section>
             </div>
     </main>

@@ -1,3 +1,14 @@
+<?php 
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/components/auth.php";
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/controllers/usuarioController.php";
+
+    $id = $_SESSION['usuario_id'];
+    $user = new UsuarioController();
+    $resposta = $user->checkToken($id);
+    if($resposta->getToken() !== 1){
+        header("location: ingresso.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -31,19 +42,20 @@
                     <a href="../pages/personagens/personagem1.php">
                         <div class="flex flex-col items-center">
                             <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
+                            <h2 class="text-5xl mt-[2rem]">Luther Hargreeves</h2>
                         </div>
                     </a>
                     <a href="../pages/personagens/personagem2.php">
                         <div class="flex flex-col items-center">
                             <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
+                            <h2 class="text-5xl mt-[2rem]">Diego Hargreeves</h2>
                         </div>
                     </a>
                     <a href="../pages/personagens/personagem3.php">
                         <div class="flex flex-col items-center">
                             <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
+                            <h2 class="text-5xl mt-[2rem]">
+Allison Hargreeves</h2>
                         </div>
                     </a>
                 </div>
@@ -51,19 +63,19 @@
                     <a href="../pages/personagens/personagem4.php">
                         <div class="flex flex-col items-center">
                             <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
+                            <h2 class="text-5xl mt-[2rem]">Klaus Hargreeves</h2>
                         </div>
                     </a>
                     <a href="../pages/personagens/personagem5.php">
                         <div class="flex flex-col items-center">
                             <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
+                            <h2 class="text-5xl mt-[2rem]">Five</h2>
                         </div>
                     </a>
                     <a href="../pages/personagens/personagem6.php">
                         <div class="flex flex-col items-center">
                             <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
+                            <h2 class="text-5xl mt-[2rem]">Ben Hargreeves</h2>
                         </div>
                     </a>
                 </div>
@@ -71,19 +83,7 @@
                     <a href="../pages/personagens/personagem7.php">
                         <div class="flex flex-col items-center">
                             <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
-                        </div>
-                    </a>
-                    <a href="../pages/personagens/personagem8.php">
-                        <div class="flex flex-col items-center">
-                            <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
-                        </div>
-                    </a>
-                    <a href="../pages/personagens/personagem9.php">
-                        <div class="flex flex-col items-center">
-                            <img class="size-[17rem]" src="../assets/img/Halloween Coffin.png" alt="Imagem do personagem">
-                            <h2 class="text-5xl mt-[2rem]">Nome</h2>
+                            <h2 class="text-5xl mt-[2rem]">Victor Hargreeves</h2>
                         </div>
                     </a>
                 </div>

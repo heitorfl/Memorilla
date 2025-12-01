@@ -11,4 +11,6 @@
         exit();
     }
     $_SESSION['last_activity'] = time();
+
+    
 ?>

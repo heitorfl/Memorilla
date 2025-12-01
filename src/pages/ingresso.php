@@ -1,3 +1,7 @@
+<?php
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/Memorilla/src/components/auth.php"; 
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -34,7 +38,12 @@
                 <h2 class="jim text-5xl m-1">Presencial</h2>
                 <div class="flex flex-col">
                     <i class="fa-solid fa-ticket text-(--secondary-blue) text-[9.5rem] m-5"></i>
-                    <a href=""><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs">Comprar</button></a>
+                    <form action="carrinho.php" method="post">
+                            <input type="hidden" name="produto_id" value="10">
+                            <input type="hidden" name="quantidade" value="1">
+                            <button type="submit" class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs cursor-pointer">Comprar</button>
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -42,7 +51,7 @@
                 <h2 class="jim text-5xl m-1">Virtual</h2>
                 <div class="flex flex-col">
                     <i class="fa-solid fa-ticket text-(--secondary-blue) text-[9.5rem] m-5"></i>
-                    <a href=""><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs">Comprar</button></a>  
+                    <a href="/Memorilla/src/models/liberarAcesso.php"><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs cursor-pointer">Comprar</button></a>  
                 </div>
             </div>
         </section>

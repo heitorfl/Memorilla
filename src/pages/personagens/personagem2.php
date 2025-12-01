@@ -18,13 +18,17 @@
                 <section class="p-13 border-solid border-(--secondary-blue) border-b flex items-center">
                     <img class="w-[16rem] h-[20rem] rounded-2xl" src="../../assets/img/foto-teste-personagens.png" alt="Foto-do-personagem">
                     <div class="m-15">
-                        <h1 class="text-(--secondary-blue) text-4xl mb-10">Nome personagem</h1>
-                        <p class="max-w-3xl text-xl text-justify">Somos o Instituto de Cronografia Aplicada, uma instituição independente dedicada à preservação meticulosa de histórias significativas. Nosso trabalho é garantir que narrativas cruciais não se percam no tempo. O Memorilla nasceu da crença de que toda história, por mais complexa que seja, merece um repositório de confiança. Fundado por um grupo de arquivistas, pesquisadores e storytellers, nosso projeto é um tributo ao poder da memória coletiva.</p>
+                        <h1 class="text-(--secondary-blue) text-4xl mb-10">Diego Hargreeves</h1>
+                        <p class="max-w-3xl text-xl text-justify">Diego, o "Número Dois" que rejeitava o título, era conhecido como "O Kraken". Sua habilidade era curvar a trajetória de qualquer objeto que arremessasse, principalmente suas facas. Com um profundo complexo de irmão mais velho em relação a Luther, ele sempre buscou provar seu valor. De personalidade impulsiva e justiceira, ele deixou a Academia para se tornar um vigilante, lutando contra o crime nas ruas de forma independente.
+
+</p>
                     </div>
                 </section>
                 <section class="p-13 max-w-7xl flex flex-col items-center mt-5 mb-15">
                     <img class="w-full h-[20rem] rounded-2xl" src="../../assets/img/foto-teste-banner-personagens.png" alt="Foto">
-                    <p class="text-justify text-xl max-w-7x1 m-15">Somos o Instituto de Cronografia Aplicada, uma instituição independente dedicada à preservação meticulosa de histórias significativas. Nosso trabalho é garantir que narrativas cruciais não se percam no tempo. O Memorilla nasceu da crença de que toda história, por mais complexa que seja, merece um repositório de confiança. Fundado por um grupo de arquivistas, pesquisadores e storytellers, nosso projeto é um tributo ao poder da memória coletiva.</p>
+                    <p class="text-justify text-xl max-w-7x1 m-15">A morte de Diego foi um ato de sacrifício definitivo. Durante um ataque em grande escala à Academia, ele e sua irmã Lila ficaram encurralados. Para salvá-la e dar à família uma chance de escapar, Diego detonou explosivos que ele mesmo plantou, criando uma distração massiva. A explosão foi catastrófica, garantindo a fuga dos outros, mas custando sua própria vida.
+
+</p>
                 </section>
             </div>
     </main>

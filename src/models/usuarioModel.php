@@ -4,7 +4,7 @@
 
     class UsuarioModel{
 
-        private $table = "usuario";
+        private $table = 'usuario';
 
     public function create(Usuario $c)
     {
@@ -43,23 +43,23 @@
 
     public function login(Usuario $c)
     {
-        $stmt = Conexao::getConn()->prepare("select * from $this->table where email=? and senha=?");
-        $stmt->bindValue(1, $c->getEmail());
-        $stmt->bindValue(2, $c->getSenha());
+        $stmt = Conexao::getConn()->prepare("select * from usuario where email=? and senha=?");
+        $stmt->bindValue(1, trim($c->getEmail()));
+        $stmt->bindValue(2, trim($c->getSenha()));
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
         $stmt->execute();
         return $stmt->fetch();
     }
-    public function checkToken(Usuario $c){
+    public function checkToken($id){
         $stmt = Conexao::getConn()->prepare("select token from $this->table where id=?");
-        $stmt->bindValue(1, $c->getId());
+        $stmt->bindValue(1, $id);
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
         $stmt->execute();
         return $stmt->fetch();
     }
-    public function changeToken(Usuario $c){
-        $stmt = Conexao::getConn()->prepare("update from $this->table set token=1 where id=?");
-        $stmt->bindValue(1, $c->getId());
+    public function changeToken($id){
+        $stmt = Conexao::getConn()->prepare("UPDATE $this->table SET token=1 WHERE id=? ");
+        $stmt->bindValue(1, $id);
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
         $stmt->execute();
         return $stmt->fetch();
