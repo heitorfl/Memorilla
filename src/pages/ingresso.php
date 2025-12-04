@@ -23,7 +23,7 @@
                 <li><a href="../pages/carrinho.php">Carrinho</a></li>
                 <li><a href="../pages/personagens.php">Personagem</a></li>
                 <li><a href="../pages/mapa.php">Mapa</a></li>
-                <li><i class="fa-solid fa-door-open text-2xl"></i></li>
+                <li><a href="/Memorilla/src/components/logout.php?confirm=1"><i class="fa-solid fa-door-open text-2xl"></i></a></li>
             </nav>
         </ul>
     </header>
@@ -51,7 +51,7 @@
                 <h2 class="jim text-5xl m-1">Virtual</h2>
                 <div class="flex flex-col">
                     <i class="fa-solid fa-ticket text-(--secondary-blue) text-[9.5rem] m-5"></i>
-                    <a href="/Memorilla/src/models/liberarAcesso.php"><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs cursor-pointer">Comprar</button></a>  
+                    <a href="/Memorilla/src/models/liberarAcesso.php?id=<?php print $_SESSION['usuario_id'];?>"><button class="text-(--secondary-blue) jim text-4xl border-solid border-(--secondary-blue) border rounded-xl w-xs cursor-pointer">Comprar</button></a>  
                 </div>
             </div>
         </section>

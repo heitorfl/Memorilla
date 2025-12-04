@@ -5,7 +5,7 @@
     $id = $_SESSION['usuario_id'];
     $user = new UsuarioController();
     $resposta = $user->checkToken($id);
-    if($resposta->getToken() !== 1){
+    if($resposta->getToken() !== "1"){
         header("location: ingresso.php");
     }
 ?>
@@ -30,7 +30,7 @@
                 <li><a href="../pages/ingresso.php">Ingressos</a></li>
                 <li><a href="../pages/carrinho.php">Carrinho</a></li>
                 <li><a href="../pages/mapa.php">Mapa</a></li>
-                <li><i class="fa-solid fa-door-open text-2xl"></i></li>
+                <li><a href="/Memorilla/src/components/logout.php?confirm=1"><i class="fa-solid fa-door-open text-2xl"></i></a></li>
             </nav>
         </ul>
     </header>

@@ -27,7 +27,7 @@
     public function read()
     {
         $stmt = Conexao::getConn()->prepare("select * from $this->table");
-        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'usuario');
         $stmt->execute();
         return $stmt->fetchAll();
     }
@@ -36,7 +36,7 @@
     {
         $stmt = Conexao::getConn()->prepare("select * from $this->table where id=?");
         $stmt->bindValue(1, $id);
-        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'usuario');
         $stmt->execute();
         return $stmt->fetch();
     }
@@ -46,21 +46,21 @@
         $stmt = Conexao::getConn()->prepare("select * from usuario where email=? and senha=?");
         $stmt->bindValue(1, trim($c->getEmail()));
         $stmt->bindValue(2, trim($c->getSenha()));
-        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'usuario');
         $stmt->execute();
         return $stmt->fetch();
     }
     public function checkToken($id){
-        $stmt = Conexao::getConn()->prepare("select token from $this->table where id=?");
+        $stmt = Conexao::getConn()->prepare("select `token` from $this->table where id=?");
         $stmt->bindValue(1, $id);
-        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'usuario');
         $stmt->execute();
         return $stmt->fetch();
     }
     public function changeToken($id){
-        $stmt = Conexao::getConn()->prepare("UPDATE $this->table SET token=1 WHERE id=? ");
+        $stmt = Conexao::getConn()->prepare("update $this->table set token=1 where id=?");
         $stmt->bindValue(1, $id);
-        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'usuario');
         $stmt->execute();
         return $stmt->fetch();
     }
