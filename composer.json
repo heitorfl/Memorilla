@@ -1,0 +1,20 @@
+{
+  "name": "heitorlima/memorilla",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "heito",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Heitor\\Memorilla\\": "src/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
